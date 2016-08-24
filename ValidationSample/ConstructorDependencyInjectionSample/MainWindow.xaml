@@ -1,0 +1,28 @@
+﻿<Window x:Class="ConstructorDependencyInjectionSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Name="grdMain">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="191*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="275*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock  Name="textBlock1" Text="ID:" Margin="6" />
+        <TextBlock Grid.Row="1" Name="textBlock2" Text="First Name:" Margin="6" />
+        <TextBlock Grid.Row="2" Name="textBlock3" Text="Last Name:" Margin="6" />
+        <!--  Always remember to set ValidatesOnDataErrors to true if you are using IDataErrorInfo 
+                in your datasource class and you want the UI to automatically display errros -->
+        <TextBlock Grid.Column="1" Name="txtID" Text="{Binding Path=ID, ValidatesOnDataErrors=True}" Margin="6" />
+        <TextBox Grid.Row="1" Grid.Column="1" Name="textBox1" Margin="6" Style="{StaticResource exceloverlay}"
+                 Text="{Binding Path=FirstName, ValidatesOnDataErrors=True}" />
+        <TextBox Grid.Column="1" Grid.Row="2" Name="textBox2" Margin="6" Style="{StaticResource excel}"
+                 Text="{Binding Path=LastName, ValidatesOnDataErrors=true}" />
+    </Grid>
+
+</Window>

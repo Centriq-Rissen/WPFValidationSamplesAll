@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\bin\Debug\FactoryDependencyInjectionSample.exe.config
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\bin\Debug\FactoryDependencyInjectionSample.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\bin\Debug\FactoryDependencyInjectionSample.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\bin\Debug\BusinessObjectsForFactorySample.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\bin\Debug\BusinessObjectsForFactorySample.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\FactoryDependencyInjectionSample.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\Resources\ValidationStyles.baml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\App.baml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\FactoryDependencyInjectionSample_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\FactoryDependencyInjectionSample.g.resources
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\FactoryDependencyInjectionSample.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\FactoryDependencyInjectionSample.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\FactoryDependencyInjectionSample.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\FactoryDependencyInjectionSample\obj\Debug\FactoryDependencyInjectionSample.pdb

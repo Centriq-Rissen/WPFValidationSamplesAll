@@ -1,0 +1,11 @@
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\obj\Debug\BusinessObjectsForUnity.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\bin\Debug\BusinessObjectsForUnity.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\bin\Debug\BusinessObjectsForUnity.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\obj\Debug\BusinessObjectsForUnity.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\BusinessObjectsForUnity\obj\Debug\BusinessObjectsForUnity.pdb

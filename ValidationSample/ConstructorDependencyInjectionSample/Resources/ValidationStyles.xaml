@@ -1,0 +1,153 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- Simple validation error template that shows the error message in the textbox's tooltip -->
+    <Style x:Key="validationTooltip" TargetType="{x:Type TextBox}" >
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="ToolTip"
+                Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                Path=(Validation.Errors)[0].ErrorContent}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!-- Validation style consisting of:
+            a red error border 
+            a red asterisk at the right edge of the control -->
+    <Style TargetType="{x:Type TextBox}" x:Key="asterisk" BasedOn="{StaticResource validationTooltip}" >
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid ToolTip="{Binding ElementName=customAdorner,Path=AdornedElement.(Validation.Errors)[0].ErrorContent}" >
+                        <TextBlock Foreground="Red" FontSize="16pt" HorizontalAlignment="Right" VerticalAlignment="Center"
+                       Margin="0,0,10,0" FontWeight="Bold">*</TextBlock>
+                        <Border BorderBrush="Red" BorderThickness="1" Margin="6" 
+                    ToolTip="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}">
+                            <AdornedElementPlaceholder Name="customAdorner" />
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!-- Validation style consisting of:
+            a red error border
+            a red asterisk at the right edge of the control
+            kind of an opaque red overlay over the top of the textbox -->
+    <Style TargetType="{x:Type TextBox}" x:Key="overlay" BasedOn="{StaticResource validationTooltip}" >
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid ToolTip="{Binding ElementName=customAdorner,Path=AdornedElement.(Validation.Errors)[0].ErrorContent}" >
+                        <TextBlock Foreground="Red" FontSize="16pt" HorizontalAlignment="Right" VerticalAlignment="Center"
+                       Margin="0,0,10,0" FontWeight="Bold">*</TextBlock>
+                        <Border BorderBrush="Red" BorderThickness="1" Margin="6" 
+                    ToolTip="{Binding RelativeSource={x:Static RelativeSource.Self},
+                Path=(Validation.Errors)[0].ErrorContent}">
+                            <AdornedElementPlaceholder Name="customAdorner" />
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="Control.Background" Value="Pink"/>
+                <Setter Property="Control.Foreground" Value="Black"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!-- Validation style consisting of:
+            a red error border
+            a red excel-like triangle at the upper right-hand corner -->         
+    <Style TargetType="{x:Type TextBox}" x:Key="excel" BasedOn="{StaticResource validationTooltip}" >
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Polygon Points="20,15 20,2 2,2"
+                 Stroke="red"
+                 StrokeThickness="1"
+                 Fill="Red"
+                 HorizontalAlignment="Right"
+                 VerticalAlignment="Top"
+                 ToolTip="{Binding ElementName=customAdorner, 
+                                   Path=AdornedElement.(Validation.Errors)[0].ErrorContent}"/>
+                        <Border BorderBrush="Red" BorderThickness="1" 
+                    ToolTip="{Binding RelativeSource={x:Static RelativeSource.Self},
+                Path=(Validation.Errors)[0].ErrorContent}">
+                            <AdornedElementPlaceholder x:Name="customAdorner"/>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!-- Validation style consisting of:
+            a red error border
+            a red excel-like triangle at the upper right-hand corner 
+            kind of an opaque red overlay over the top of the textbox  -->
+    <Style TargetType="{x:Type TextBox}" x:Key="exceloverlay" BasedOn="{StaticResource validationTooltip}">
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Polygon Points="20,15 20,2 2,2"
+                 Stroke="red"
+                 StrokeThickness="1"
+                 Fill="Red"
+                 HorizontalAlignment="Right"
+                 VerticalAlignment="Top"
+                 ToolTip="{Binding ElementName=customAdorner, 
+                                   Path=AdornedElement.(Validation.Errors)[0].ErrorContent}"/>
+                        <Border BorderBrush="Red" BorderThickness="1" 
+                    ToolTip="{Binding RelativeSource={x:Static RelativeSource.Self},
+                Path=(Validation.Errors)[0].ErrorContent}">
+
+                            <AdornedElementPlaceholder x:Name="customAdorner" />
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="Control.Background" Value="Pink"/>
+                <Setter Property="Control.Foreground" Value="Black"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <LinearGradientBrush x:Key="ErrorGradient"  >
+        <GradientStop Color="Pink" Offset="0" />
+        <GradientStop Color="red" Offset=".4" />
+    </LinearGradientBrush>
+    <Style TargetType="{x:Type TextBox}" x:Key="popuptemplate">
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Border BorderBrush="#FFCB2E2E" BorderThickness="1" IsHitTestVisible="False" x:Name="errorBorder"/>
+                        <AdornedElementPlaceholder x:Name="placeholder" />
+                        <Popup AllowsTransparency="True" HorizontalAlignment="Right" HorizontalOffset="5" VerticalOffset="0" PopupAnimation="Fade" 
+                                 Placement="Right" PlacementTarget="{Binding ElementName=errorBorder}" IsOpen="True" >
+                            <StackPanel Orientation="Horizontal">
+                                <Polygon  VerticalAlignment="Center" Points="0,3 3,0 3,6" Fill="#FFCB2E2E" Stretch="Fill" Stroke="#FFCB2E2E"
+                                      StrokeThickness="2" />
+                                <Border Background="{StaticResource ErrorGradient}" CornerRadius="4" Padding="4">
+                                    <TextBlock HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="2,0,0,0"
+                                                   Text="{Binding ElementName=placeholder, Path=AdornedElement.ToolTip, Mode=OneWay}" />
+                                </Border>
+                            </StackPanel>
+                        </Popup>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

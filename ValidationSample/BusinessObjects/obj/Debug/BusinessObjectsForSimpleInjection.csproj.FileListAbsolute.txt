@@ -1,0 +1,4 @@
+c:\users\admin\documents\visual studio 2012\Projects\ValidationSample\BusinessObjects\bin\Debug\BusinessObjects.dll
+c:\users\admin\documents\visual studio 2012\Projects\ValidationSample\BusinessObjects\bin\Debug\BusinessObjects.pdb
+c:\users\admin\documents\visual studio 2012\Projects\ValidationSample\BusinessObjects\obj\Debug\BusinessObjects.dll
+c:\users\admin\documents\visual studio 2012\Projects\ValidationSample\BusinessObjects\obj\Debug\BusinessObjects.pdb

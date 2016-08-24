@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\bin\Debug\ConstructorDependencyInjectionSample.exe.config
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\bin\Debug\ConstructorDependencyInjectionSample.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\bin\Debug\ConstructorDependencyInjectionSample.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\bin\Debug\BusinessObjects.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\bin\Debug\BusinessObjects.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\ConstructorDependencyInjectionSample.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\Resources\ValidationStyles.baml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\App.baml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\ConstructorDependencyInjectionSample_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\ConstructorDependencyInjectionSample.g.resources
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\ConstructorDependencyInjectionSample.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\ConstructorDependencyInjectionSample.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\ConstructorDependencyInjectionSample.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\ValidationSample\ConstructorDependencyInjectionSample\obj\Debug\ConstructorDependencyInjectionSample.pdb

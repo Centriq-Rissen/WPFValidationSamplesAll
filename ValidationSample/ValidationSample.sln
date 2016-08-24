@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjectsForDependencyInjection", "BusinessObjects\BusinessObjectsForDependencyInjection.csproj", "{EB3739E9-55C0-4ABA-9020-8F523231631C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorDependencyInjectionSample", "ConstructorDependencyInjectionSample\ConstructorDependencyInjectionSample.csproj", "{B6D5A025-1519-4E06-BCE4-230E57941932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjectsForFactorySample", "BusinessObjectsForFactorySample\BusinessObjectsForFactorySample.csproj", "{11D1CF10-B779-4B03-BA24-56675EC2D077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDependencyInjectionSample", "FactoryDependencyInjectionSample\FactoryDependencyInjectionSample.csproj", "{001B16DE-697B-4671-8DB8-E4955BDE03F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjectsForUnity", "BusinessObjectsForUnity\BusinessObjectsForUnity.csproj", "{A3FA6380-80C2-411B-9656-DA8F162BB917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDependancyInjectionSample", "UnityDependancyInjectionSample\UnityDependancyInjectionSample.csproj", "{111E4033-6EF0-471A-A12B-0B18E1D500B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB3739E9-55C0-4ABA-9020-8F523231631C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3739E9-55C0-4ABA-9020-8F523231631C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3739E9-55C0-4ABA-9020-8F523231631C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3739E9-55C0-4ABA-9020-8F523231631C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D5A025-1519-4E06-BCE4-230E57941932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D5A025-1519-4E06-BCE4-230E57941932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D5A025-1519-4E06-BCE4-230E57941932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D5A025-1519-4E06-BCE4-230E57941932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D1CF10-B779-4B03-BA24-56675EC2D077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D1CF10-B779-4B03-BA24-56675EC2D077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D1CF10-B779-4B03-BA24-56675EC2D077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D1CF10-B779-4B03-BA24-56675EC2D077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001B16DE-697B-4671-8DB8-E4955BDE03F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001B16DE-697B-4671-8DB8-E4955BDE03F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001B16DE-697B-4671-8DB8-E4955BDE03F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001B16DE-697B-4671-8DB8-E4955BDE03F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FA6380-80C2-411B-9656-DA8F162BB917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FA6380-80C2-411B-9656-DA8F162BB917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FA6380-80C2-411B-9656-DA8F162BB917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FA6380-80C2-411B-9656-DA8F162BB917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111E4033-6EF0-471A-A12B-0B18E1D500B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111E4033-6EF0-471A-A12B-0B18E1D500B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111E4033-6EF0-471A-A12B-0B18E1D500B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111E4033-6EF0-471A-A12B-0B18E1D500B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
